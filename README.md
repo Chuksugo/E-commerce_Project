@@ -1,4 +1,4 @@
-# E-commerce_Project
+ E-commerce Product API
 
 This project is an E-commerce Product API developed using Django and Django REST Framework (DRF). The API is designed to manage products on an e-commerce platform, including CRUD operations, user authentication, product search, and filtering. Below is a detailed explanation of how the project was implemented.
 
@@ -92,13 +92,17 @@ This project is an E-commerce Product API developed using Django and Django REST
 
  5. Deployment
 
-1. Prepare for Deployment:
-   - Added necessary configurations for `DEBUG`, allowed hosts, and static files.
+  -Set up a PythonAnywhere web app and choose manual configuration.
 
-2. Deploy on Heroku:
-   - Created a `Procfile` and `runtime.txt` for Heroku.
-   - Installed `gunicorn` for WSGI server.
-   - Pushed the code to a Heroku app.
+  -Install dependencies using pip install -r requirements.txt.
+
+  -Update the WSGI file to point to wsgi.py.
+
+  -Set up static and media files in PythonAnywhere settings.
+
+  -Run python manage.py migrate.
+
+  -Restart the web app.
 
 ---
 
