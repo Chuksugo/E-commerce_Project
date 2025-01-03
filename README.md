@@ -108,11 +108,8 @@ This project is an E-commerce Product API developed using Django and Django REST
 
  6. Challenges and Solutions
 
-1. Challenge: Implementing efficient filtering and pagination for large datasets.
-   - Solution: Used Django ORM’s query optimization techniques and DRF’s pagination classes.
-
-2. Challenge: Securing endpoints.
-   - Solution: Implemented JWT-based authentication and thoroughly tested access controls.
+- Challenge: Implementing efficient testing and deployment.
+- Solution: Utilized web browser testing methods and deployed the project on the PythonAnywhere platform.
 
 ---
 
